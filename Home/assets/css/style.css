@@ -1,0 +1,185 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0%;
+}
+.html {
+    font-size: 62.2%;
+}
+.content_primary {
+    display: grid;
+    grid-template-rows: repeat(2, 0.5fr);        
+}
+.item-description {    
+    padding: 10px;    
+}
+.title_styles {
+    font-family: "arial black";
+    font-size: 2.0rem;
+    padding-left: 5%;
+    margin-top: 20%;
+}
+.text_styles{
+    font-family: "fira-sanks";
+    padding-left: 5%;
+}
+.template_images-social_networks {                
+    display: flex;     
+    grid-gap: 2%;
+    align-items: center;    
+    margin-top: 5%;    
+    padding-left: 5%;    
+}
+.size_social_networks {
+    max-width: 70%; 
+}
+.image_position-size {      
+    max-width: 70%; 
+    width: inherit;     
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+} 
+.content_secondary {
+    background-color: #F8F9F9;    
+    grid-template-rows: repeat(3, minmax(100px, 250px)); 
+    display: grid;    
+    grid-gap: 5%;
+    justify-content: center;
+    padding-top: 15%; 
+    padding-bottom: 40%;       
+}
+.item-attributes {    
+    box-shadow: 2px 2px 2px 2px #C2C6C6;
+    border-radius: 5%;
+    padding: 10px;
+}
+.size-margin_image_Web-Designer {
+    max-width: 20%; 
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#tablet_padding{
+    padding-top: 10%;
+}
+ .size-margin_image_Front-end-Developer {
+    max-width: 20%; 
+    margin-top: 5%;
+    margin-left: 5%;
+}
+ .size-margin_image_Software-Developer {
+    max-width: 15%; 
+    margin-top: 3%;
+    margin-left: 7%;
+}
+ .subtitle_content_secondary {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+.text_content_secondary {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-left: 7%;    
+}
+.styles_hypertext_LEARN-MORE {   
+    color: #34CDD7;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+} 
+.text-align_LEARN-MORE {
+    padding-left: 7%;
+    padding-bottom: 5%;
+}
+.content_thrird{
+    background-color: white;
+}
+.subtitle_SKILLS_styles {
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    margin-top: 5%;
+}
+.line_skills_subtitle {
+    background-color:#363737;
+    height: 2px;
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 35%;    
+    margin-bottom: 10%;
+}
+.content_SKILLS {
+    grid-template-rows: repeat(4, minmax(100px, 170px)); 
+    display: grid;    
+    grid-gap: 5%;
+    justify-content: center;              
+}
+.item_skills {
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px #C2C6C6;
+}
+.subtitle_skills_styles {
+    font-family: Arial, Helvetica, sans-serif;     
+    text-align: center;
+    margin-top: 5%;  
+}
+.align_image_skills {
+    margin-top: 5%;
+}
+.content_fourth {
+    margin-top: 60%;
+    background-color: #363737;
+}
+.subtitle_porfalio_styles {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;    
+    padding-top: 5%;   
+}
+.line_portafolio_subtitle {
+    background-color: white;
+    width: 40%;
+    height: 0.5px;
+    margin-top: 1%;  
+    margin-left: 30%;      
+    margin-bottom: 20%;
+}
+.content_portafolio {
+    grid-template-rows: repeat(12, minmax(80px, 200px)); 
+    display: grid;    
+    grid-gap: 5%;
+    justify-content: center;              
+}
+.item_portafolio {
+    background-color:#363737;
+}
+.content_fifth {
+    background-color: #363737;       
+    grid-template-rows: repeat(2, 0.5fr);
+    display: grid;
+    padding-top: 400%;    
+}
+.line_footer {
+    background-color: white;       
+    height: 0.3px;
+    margin-left: 5%;    
+}
+.item_footer_primary {    
+    display: flex;    
+    align-items: center; 
+    justify-content: center;        
+    grid-gap: 5%;
+}
+.font-family_mail {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.item_footer_secondary {
+    min-width: 50%;
+    display: flex;     
+    grid-gap: 5%;
+    align-items: center;     
+    justify-content: center;  
+    margin-top: 2%; 
+    margin-bottom: 5%;     
+}
