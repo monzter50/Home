@@ -1,0 +1,23 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://monzter50.github.io/Home",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monzter50/Home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monzter50/Home/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
